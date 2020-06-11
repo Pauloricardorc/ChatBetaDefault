@@ -9,13 +9,13 @@ class Fire {
   init = () => {
     if (!firebase.apps.length) {
       firebase.initializeApp({
-        apiKey: "AIzaSyCY7IWQx3lcH9Z2gZ54gEBSt0fRO6kapJ4",
-    authDomain: "chatfirebase-e2a68.firebaseapp.com",
-    databaseURL: "https://chatfirebase-e2a68.firebaseio.com",
-    projectId: "chatfirebase-e2a68",
-    storageBucket: "chatfirebase-e2a68.appspot.com",
-    messagingSenderId: "13972362838",
-    appId: "1:13972362838:web:a4be0b1ecd451a81718df7"
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: ""
       });
     }
   };
